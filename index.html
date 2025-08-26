@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="viewport" content="width=device-width">
+  <title>Your cart is waiting</title>
+  <style>
+    img{border:0;outline:none;text-decoration:none;display:block}
+    table{border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt}
+    a{color:inherit}
+    .wrapper{width:100%;background:#ffffff}
+    .container{width:600px}
+    @media only screen and (max-width:620px){
+      .container{width:100%!important}
+      .pad{padding-left:16px!important;padding-right:16px!important}
+    }
+  </style>
+</head>
+<body style="margin:0;padding:0;background:#ffffff;">
+  <div style="display:none!important;font-size:1px;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;">
+    Don’t miss out, complete your order today.
+  </div>
+
+  <!-- ===== HEADER / LOGO ===== -->
+  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
+    <tr>
+      <td align="center">
+        <table role="presentation" class="container" width="600">
+          <tr>
+            <td align="left" style="padding:16px;" class="pad">
+              <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_1&amp;ems_l=0&amp;i=1&amp;_esuh=_11_d831dfa90887bae53b57e4687018b481e28eb5ca3ee57d113f37a62470389e7e" target="_blank">
+                <img src="https://link.cablemelbourne.com/custloads/794301826/md_1036939.jpg" width="180" alt="Cable Melbourne">
+              </a>
+            </td>
+            <td align="right" style="padding:16px 16px 16px 0;font:11px/1 Verdana, Geneva, sans-serif;color:#777;" class="pad">
+              Soha
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!-- ===== NAV ===== -->
+  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff" aria-hidden="true">
+    <tr>
+      <td align="center">
+        <table role="presentation" class="container" width="600">
+          <tr>
+            <td align="center" style="padding:6px 16px;font:10px/1.6 'Mr Eaves Modern', Arial, Helvetica, sans-serif;color:#001b2f;text-transform:uppercase;" class="pad">
+              <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_3&amp;ems_l=0&amp;i=1&amp;_esuh=_11_e1ee252b9c9439276694129ed7be8c2e2b052e5d74fc0f4e647abb6a6b40d303" style="text-decoration:none;color:#001b2f;" target="_blank">New Arrivals</a> &nbsp;|&nbsp;
+              <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_5&amp;ems_l=0&amp;i=1&amp;_esuh=_11_8aed3d7805851aa22ba4c3fc0e592d5cc211edcc03fd36aa05cc472dfa047716" style="text-decoration:none;color:#001b2f;" target="_blank">Dresses</a> &nbsp;|&nbsp;
+              <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_7&amp;ems_l=0&amp;i=1&amp;_esuh=_11_d4c5b9184834904acf30549d115548118a8634c23b24c597af2f613c0183fb9c" style="text-decoration:none;color:#001b2f;" target="_blank">Tops</a> &nbsp;|&nbsp;
+              <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_9&amp;ems_l=0&amp;i=1&amp;_esuh=_11_409270014adde581487ff3402e9d9067ba7ca8fe77c4019f39618f3d8d8a80e3" style="text-decoration:none;color:#001b2f;" target="_blank">Pants &amp; Shorts</a> &nbsp;|&nbsp;
+              <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_11&amp;ems_l=0&amp;i=1&amp;_esuh=_11_b0186ac718fce4e74c5515c96c0cfef40df5750b3941d670b505ac6af42f63d6" style="text-decoration:none;color:#001b2f;" target="_blank">Knitwear</a> &nbsp;|&nbsp;
+              <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_13&amp;ems_l=0&amp;i=1&amp;_esuh=_11_cfeaa8d1e2e41bc18dd7d3f1a5a06695d3d48aa9950caa593fa93a565d2d7446" style="text-decoration:none;color:#001b2f;" target="_blank">Lookbook</a> &nbsp;|&nbsp;
+              <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_15&amp;ems_l=0&amp;i=1&amp;_esuh=_11_9b545eb4e6f90a0717b3ada58be5bcab546435caaae4355222560f0a22c78d6e" style="text-decoration:none;color:#d42a31;" target="_blank">Sale</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!-- ===== MEMBER SUMMARY (merge-safe, from outer HTML) ===== -->
+  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
+    <tr><td align="center">
+      <table role="presentation" class="container" width="600">
+        <tr>
+          <td align="center" style="padding:14px 16px;font:11px/1.5 Verdana, Geneva, sans-serif;color:#000;" class="pad">
+            MEMBER TIER: {{ contact.24362 }} &nbsp;&nbsp;|&nbsp;&nbsp;
+            POINTS: {% if contact.24403 == '' %}0{% else %}{{ contact.24403 }}{% endif %} &nbsp;&nbsp;|&nbsp;&nbsp;
+            REWARDS: $ {% if contact.24367 == '' %}0{% else %}{{ contact.24367 }}{% endif %} <br>
+            SPEND TO NEXT TIER: $
+            {% if contact.24402|number_format(2, '.', ',') is empty %}0{% else %}{{ contact.24402|number_format(2, '.', ',') }}{% endif %}
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+
+  <!-- ===== BANNER ===== -->
+  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
+    <tr>
+      <td align="center">
+        <table role="presentation" class="container" width="600">
+          <tr>
+            <td align="center">
+              <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_17&amp;ems_l=0&amp;i=1&amp;_esuh=_11_3e518a149c622b2801590ac1b57c7e3ed46f85012c928bc972741c95aa6b1e78" target="_blank" aria-label="Return to your cart">
+                <img src="http://link.cablemelbourne.com/custloads/794301826/md_1235077.jpg" width="600" alt="Your cart is waiting">
+              </a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!-- ===== BODY COPY ===== -->
+  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
+    <tr><td align="center">
+      <table role="presentation" class="container" width="600">
+        <tr>
+          <td style="padding:20px 40px 8px;font:15px/1.7 Verdana, Geneva, sans-serif;color:#000;text-align:center;" class="pad">
+            <p style="margin:0 0 10px;"><strong>Hi Soha,</strong></p>
+            <p style="margin:0;">
+              Your cart is still waiting, and the styles you picked are almost gone.
+              Now’s a great time to make them yours.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+
+  <!-- ===== PREDICT RECOMMENDER BLOCK (static image) ===== -->
+  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
+    <tr><td align="center">
+      <table role="presentation" class="container" width="600">
+        <tr>
+          <td align="center">
+            <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_21&amp;ems_l=0&amp;i=1&amp;_esuh=_11_24ffda97fee45675f82d13d1f0ce082c140d7f71028e92d16638a2abda56d2d3" target="_blank">
+              <img src="http://link.cablemelbourne.com/custloads/794301826/md_1118494.jpg" width="600" alt="Recommended for you">
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:10px 16px 0;text-align:center;font:16px/1.4 Verdana, Geneva, sans-serif;color:#000;" class="pad">
+            <strong>Sabine Double Breasted Coat</strong>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+
+  <!-- ===== PRIMARY CTA (Return to your cart) ===== -->
+  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
+    <tr><td align="center">
+      <table role="presentation" class="container" width="600">
+        <tr>
+          <td align="center" style="padding-top:12px;">
+            <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_23&amp;ems_l=0&amp;i=1&amp;_esuh=_11_2c753dbf8332bc7752f9c7b3814fec1e3051024f3b72a96e60a8227347ea6ebb" target="_blank" aria-label="Return to your cart">
+              <img src="http://link.cablemelbourne.com/custloads/794301826/md_1041605.jpg" width="600" alt="Return to your cart">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+
+  <!-- ===== AFTER CTA STRIP ===== -->
+  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
+    <tr><td align="center">
+      <table role="presentation" class="container" width="600">
+        <tr>
+          <td align="center" style="padding-top:8px;">
+            <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_27&amp;ems_l=0&amp;i=1&amp;_esuh=_11_ee4e7c9e0552e950c1220a9901f1d34f4285f008a7b98cbd23238ec3ba09e731" target="_blank">
+              <img src="http://link.cablemelbourne.com/custloads/794301826/md_1209539.gif" width="600" alt="Free Delivery & AfterPay info">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+
+  <!-- ===== SOCIAL & UNSUB ===== -->
+  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
+    <tr><td align="center">
+      <table role="presentation" class="container" width="600">
+        <tr>
+          <td align="center" style="padding:16px 16px 6px;" class="pad">
+            <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_29&amp;ems_l=0&amp;i=1&amp;_esuh=_11_6cf81ae0770f72276e9f0295402fc2e94ae4423af8ce646268cb21ce22a84663" target="_blank"><img src="https://suite34-cdnnet.emarsys.net/custloads/794301826/vce/ig2x.png" width="24" alt="Facebook"></a>&nbsp;
+            <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_31&amp;ems_l=0&amp;i=1&amp;_esuh=_11_48752ac711deea25222863ebe2fe6c752f626ce7f5951cd414cb82f95fb6a624" target="_blank"><img src="https://suite34-cdnnet.emarsys.net/custloads/794301826/vce/fb2x.png" width="24" alt="Instagram"></a>&nbsp;
+            <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_33&amp;ems_l=0&amp;i=1&amp;_esuh=_11_42fa709156ee19c419b819d00962a5a9362d8f471463347dbf3f28a07bd19f9c" target="_blank"><img src="https://suite34-cdnnet.emarsys.net/custloads/794301826/vce/li2x.png" width="24" alt="LinkedIn"></a>&nbsp;
+            <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_35&amp;ems_l=0&amp;i=1&amp;_esuh=_11_0ad614233a55249cec78e1f35091bf3f1b5f68b5cd1a183dc4e35a7d7391bbec" target="_blank"><img src="https://suite34-cdnnet.emarsys.net/custloads/794301826/vce/pin2x.png" width="24" alt="Pinterest"></a>
+          </td>
+        </tr>
+        <tr>
+          <td align="center" style="padding:10px 16px 28px;font:10px/1.6 Verdana, Geneva, sans-serif;color:#7f7f7f;" class="pad">
+            If you would like to unsubscribe,
+            <a href="https://suite34.emarsys.net/u/un.php?par=_7374294_$llid$_1&amp;_esuh=_11_90893f789fcafd2ed61d150d2253c2de1c894248aa93bd6b06e5e9f0724824f8" style="color:#7f7f7f;text-decoration:underline;" target="_blank">click here</a>.
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+
+</body>
+</html>
