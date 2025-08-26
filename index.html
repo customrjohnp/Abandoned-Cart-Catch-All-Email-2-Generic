@@ -63,22 +63,19 @@
     </tr>
   </table>
 
-  <!-- ===== MEMBER SUMMARY (merge-safe, from outer HTML) ===== -->
-  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
-    <tr><td align="center">
-      <table role="presentation" class="container" width="600">
-        <tr>
-          <td align="center" style="padding:14px 16px;font:11px/1.5 Verdana, Geneva, sans-serif;color:#000;" class="pad">
-            MEMBER TIER: {{ contact.24362 }} &nbsp;&nbsp;|&nbsp;&nbsp;
-            POINTS: {% if contact.24403 == '' %}0{% else %}{{ contact.24403 }}{% endif %} &nbsp;&nbsp;|&nbsp;&nbsp;
-            REWARDS: $ {% if contact.24367 == '' %}0{% else %}{{ contact.24367 }}{% endif %} <br>
-            SPEND TO NEXT TIER: $
-            {% if contact.24402|number_format(2, '.', ',') is empty %}0{% else %}{{ contact.24402|number_format(2, '.', ',') }}{% endif %}
-          </td>
-        </tr>
-      </table>
-    </td></tr>
-  </table>
+<!-- MEMBER SUMMARY (dummy values for preview) -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr>
+    <td align="center" style="font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#000; line-height:1.5;">
+      <strong>MEMBER TIER:</strong> Merino &nbsp; | &nbsp;
+      <strong>POINTS:</strong> 820 &nbsp; | &nbsp;
+      <strong>REWARDS:</strong> $50 &nbsp; | &nbsp;
+      <strong>SPEND TO NEXT TIER:</strong> $680
+    </td>
+  </tr>
+  <tr><td style="height:20px; line-height:20px;">&nbsp;</td></tr>
+</table>
+
 
   <!-- ===== BANNER ===== -->
   <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
@@ -114,25 +111,44 @@
     </td></tr>
   </table>
 
-  <!-- ===== PREDICT RECOMMENDER BLOCK (static image) ===== -->
-  <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
-    <tr><td align="center">
-      <table role="presentation" class="container" width="600">
+<!-- PREDICT RECOMMENDER (dummy product for preview) -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="background:#ffffff;">
+  <tr><td width="18"></td>
+    <td>
+
+      <!-- Single dummy product row -->
+      <table cellpadding="0" cellspacing="0" border="0" width="100%">
         <tr>
-          <td align="center">
-            <a href="https://link.cablemelbourne.com/u/nrd.php?p=_$llid$_7374294_1_21&amp;ems_l=0&amp;i=1&amp;_esuh=_11_24ffda97fee45675f82d13d1f0ce082c140d7f71028e92d16638a2abda56d2d3" target="_blank">
-              <img src="http://link.cablemelbourne.com/custloads/794301826/md_1118494.jpg" width="600" alt="Recommended for you">
+          <!-- image -->
+          <td width="138" valign="middle" style="vertical-align:middle;">
+            <a href="#" target="_blank" style="text-decoration:none; color:#000;">
+              <img src="http://link.cablemelbourne.com/custloads/794301826/md_1118494.jpg" width="138" alt="Sabine Double Breasted Coat" style="display:block; width:138px; height:auto; border:0;">
+            </a>
+          </td>
+
+          <td width="20"></td>
+
+          <!-- title -->
+          <td valign="middle" align="center" style="font-family: Arial, Helvetica, sans-serif; vertical-align:middle;">
+            <span style="font-size:18px; font-weight:700; color:#000;">
+              Sabine Double Breasted Coat
+            </span>
+          </td>
+
+          <!-- shop now -->
+          <td align="right" valign="middle" width="180" style="vertical-align:middle;">
+            <a href="#" target="_blank" style="font-family: Arial, Helvetica, sans-serif; font-size:12px; color:#000; text-decoration:underline; white-space:nowrap;">
+              SHOP NOW
             </a>
           </td>
         </tr>
-        <tr>
-          <td style="padding:10px 16px 0;text-align:center;font:16px/1.4 Verdana, Geneva, sans-serif;color:#000;" class="pad">
-            <strong>Sabine Double Breasted Coat</strong>
-          </td>
-        </tr>
       </table>
-    </td></tr>
-  </table>
+
+    </td>
+    <td width="18"></td>
+  </tr>
+</table>
+
 
   <!-- ===== PRIMARY CTA (Return to your cart) ===== -->
   <table role="presentation" class="wrapper" width="100%" bgcolor="#ffffff">
